@@ -1,5 +1,6 @@
 # Threat-Hunt-PORTS-
 # Threat Hunt / Incident Report (Lab): Port of Entry (RDP) Compromise — **AZUKI-SL**
+# BY Junist Aurelien 1.19.26
 
 > **Objective:** Investigate and document a suspected intrusion that began with **inbound RDP** and progressed through staging, defense evasion, persistence, C2, credential access, collection/exfiltration, and lateral movement.
 
@@ -135,6 +136,10 @@ This report is limited to activity directly associated with the **port-of-entry 
 7. Alert immediately on **event log clearing** (e.g., `wevtutil cl`)  
 
 ---
+## *Validation Statement**
+
+**This incident investigation was conducted and validated by me, Junist Aurelien.**  
+**Validation Date:** **01-19-2026**
 
 ## Appendix — Key Hunting Queries (Condensed)
 
@@ -178,10 +183,7 @@ DeviceNetworkEvents
 
 ---
 
-## Validation Statement
 
-**This incident investigation was conducted and validated by me, Junist Aurelien.**  
-**Validation Date:** **01-19-2026**
 
 ---
 
