@@ -1,4 +1,9 @@
 # Threat-Hunt-PORTS-
+<p align="center">
+  <img src="Ports1.png" alt="Port of Entry - Threat Hunt" width="700" height="420">
+</p>
+
+
 # Threat Hunt / Incident Report (Lab): Port of Entry (RDP) Compromise — **AZUKI-SL**
 # BY Junist Aurelien 1.19.26
 
