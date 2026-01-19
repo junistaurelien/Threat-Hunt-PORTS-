@@ -175,3 +175,13 @@ DeviceNetworkEvents
 | where InitiatingProcessFolderPath =~ @"C:\ProgramData\WindowsCache"
 | summarize Connections=count(), FirstSeen=min(Timestamp), LastSeen=max(Timestamp) by RemoteIP, RemotePort
 | order by Connections desc
+
+---
+
+## Validation Statement
+
+**This incident investigation was conducted and validated by me, Junist Aurelien.**  
+**Validation Date:** **01-19-2026**
+
+---
+
