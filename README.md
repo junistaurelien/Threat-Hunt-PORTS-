@@ -1,17 +1,17 @@
-# Threat-Hunt-PORTS-
+# Threat-Hunt-Lab (PORTS)
 <p align="center">
   <img src="Ports1.png" alt="Port of Entry - Threat Hunt" width="700" height="420">
 </p>
 
 
-# Threat Hunt / Incident Report (Lab): Port of Entry (RDP) Compromise — **AZUKI-SL**
-# BY Junist Aurelien 1.19.26
+# Threat Hunt / Incident Report (Lab): Port of Entry (RDP) Compromise 
+ By Junist Aurelien 1.19.26
 
 > **Objective:** Investigate and document a suspected intrusion that began with **inbound RDP** and progressed through staging, defense evasion, persistence, C2, credential access, collection/exfiltration, and lateral movement.
 
 ---
 
-## Executive Summary (Condensed)
+## Executive Summary 
 
 During a threat hunt for unauthorized remote access, telemetry from **Microsoft Defender for Endpoint (MDE)** identified an inbound **Remote Desktop Protocol (RDP)** connection to **AZUKI-SL** from external source IP **88.97.178.12**. The attacker used the compromised account **kenji.sato** to stage tooling in **`C:\ProgramData\WindowsCache`** (hidden using `attrib`), weakened defenses by adding Windows Defender exclusion extensions (**.bat, .ps1, .exe**) and excluding a Temp path, downloaded payloads using **`certutil.exe`**, and established outbound command-and-control to **78.141.196.6** (primarily **TCP/8080**).  
 
